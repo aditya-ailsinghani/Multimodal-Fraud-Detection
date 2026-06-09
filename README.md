@@ -78,6 +78,16 @@ against each other to make the final fraud decision.
 
 ---
 
+## Exploratory Data Analysis
+
+![EDA Overview](outputs/eda_overview.png)
+
+- **Class imbalance is severe** — 569,877 legitimate transactions vs 20,663 fraud (3.5% fraud rate)
+- **Fraud transactions cluster at lower amounts** — legitimate transactions spread across a wider range, while fraud concentrates under $100
+- High-value fraud does exist but is rare — the long tail of legitimate transactions makes amount alone insufficient as a fraud signal
+
+---
+
 ## Modules
 
 ### Module 1: Tabular (XGBoost)
